@@ -1,0 +1,16 @@
+[project]
+name = "nina-santos-bot"
+version = "0.1.0"
+description = "Bot Telegram 24h"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.3",
+    "python-telegram-bot[job-queue]==21.9",
+]
+
+[tool.uv]
+run = "python main.py"
+
+[tool.replit]
+run = "python main.py"
+entrypoint = "main.py"
